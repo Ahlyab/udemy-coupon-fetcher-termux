@@ -54,7 +54,6 @@ def get_coupons(go_links):
 
 def get_go_links(list_url):
 	go_link = []
-	print("[+] Just wait a little....")
 	for link in list_url:
 		res = requests.get(link)
 		soup = BeautifulSoup(res.text, 'html.parser')
