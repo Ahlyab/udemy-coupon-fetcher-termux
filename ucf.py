@@ -30,7 +30,7 @@ def logo():
 	print("        _\///////////////__V1.0________ ")
 	print("----------------------------------------")
 	print("\tAuthor : Ahlyab ")
-	print("This tool is made for educational purpose!\n\tAny misuse of this tool \n     is not Aurthor's responsiblity")
+	print("This tool is made for educational purpose!\n\tAny misuse of this tool \n     is not Author's responsiblity")
 	print("----------------------------------------")
 
 
@@ -54,7 +54,7 @@ def get_coupons(go_links):
 
 def get_go_links(list_url):
 	go_link = []
-	print("[+] Just wait little....")
+	print("[+] Just wait a little....")
 	for link in list_url:
 		res = requests.get(link)
 		soup = BeautifulSoup(res.text, 'html.parser')
