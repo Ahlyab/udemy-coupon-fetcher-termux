@@ -108,6 +108,6 @@ def main():
 	print(f'Took {round(t2 - t1)} secs')
 
 
-file = open('./storage/downloads/coupons.txt', '+w')
+file = open('../storage/downloads/coupons.txt', '+w')
 main()
 file.close()
